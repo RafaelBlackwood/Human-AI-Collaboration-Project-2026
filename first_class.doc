@@ -1,0 +1,137 @@
+#find 3 examples of and actual connection of between HCI and AI
+
+1st paper:
+https://dl.acm.org/doi/10.1145/3313831.3376590?utm_source=chatgpt.com
+2nd paper:
+https://dl.acm.org/doi/10.1145/3399715.3400873?utm_source=chatgpt.com
+3rd paper:
+https://dl.acm.org/doi/10.1145/3544548.3580959?utm_source=chatgpt.com
+
+
+**1st Paper brief**
+Research question
+The main question was essentially: how should AI systems be designed
+so they meet real users’ explanation needs in practice?
+More specifically, the authors wanted to understand the gap between
+existing algorithmic XAI methods and the actual needs of people designing
+AI products for users. They explored this by interviewing 20 UX and design
+practitioners working on AI products.
+
+
+
+What they did:
+They conducted interviews with those practitioners and used an “algorithm-informed 
+XAI question bank” as a probe. This question bank represents explanation needs
+as the kinds of questions users may ask an AI system, such as wanting to know
+why the system made a decision, what data it used, how confident it is, or what
+could change the outcome.
+
+ (P.S. The XAI question bank is basically a structured list of common questions
+that users may want to ask an AI system when they want to understand its behavior.
+In that paper, the authors describe it as an algorithm-informed tool where
+explainability needs are represented as prototypical user questions about the AI.)
+
+Main findings
+The paper found that there is a real mismatch between current XAI research and 
+real-world product design needs. Existing XAI work often focuses on technical
+explanation methods, but practitioners need explanations that are tied to user
+goals, context, and product experience.
+Another key finding is that users’ needs can be better understood as questions
+they want to ask the AI, rather than as one fixed explanation format. That is why
+the authors proposed the XAI question bank as a practical tool for designing more
+ user-centered explainability.
+
+
+**2nd Paper Brief**
+
+Research question
+The paper asks, in essence, what should “Interactive Human Centered AI” mean, 
+and what properties should such systems have so that AI supports people rather
+ than just being technically powerful.
+
+Main idea
+It is mostly a conceptual paper, not an experiment paper. The author
+ proposes a definition of Interactive Human Centered AI as AI that allows
+  real-time interaction, exploration, and manipulation, is built for human
+   benefit, and is transparent about who controls the data and algorithms.
+
+Main findings / arguments
+The paper argues that human-centered AI should let people:
+interact with AI in real time
+see the effect of changes immediately
+understand why and how decisions are made
+know what data is being used
+know who has control
+understand both the benefits and the risks of the AI system.
+
+
+
+
+**A PROBLEM THAT MAY ACCURE IN A WORKSPACE
+SCENARIO THAT MAY BE CURED WITH AI**
+
+people often bornout during huge a overload at work or a lot of pressure, this leads to
+a huge loss of motivation, productivity, wellbeing and team morale.
+
+An AI system could help by analyzing the problem and help with annoying and small tasks, such as:
+- automatic documentation
+- automatic tasks management 
+- controll stress levels
+
+1. Bakker, Demerouti, & Sanz-Vergel (2014)
+
+Burnout and Work Engagement: The JD–R Approach
+
+This paper explains that burnout often happens when employees face high job demands, 
+such as too much work, pressure, and emotional strain, while not having enough support
+or resources. The authors use the Job Demands–Resources model to show that these
+conditions can lead to exhaustion and disengagement, while enough resources can
+improve motivation and engagement. This paper strongly supports your idea that
+overload at work can damage wellbeing, motivation, and performance.
+
+2. Belloni, Villosio, & Moro (2022)
+
+The Impact of Working Conditions on Mental Health
+
+This paper studies how working conditions affect mental health and shows that poor
+or stressful work environments can have a real negative effect on employees’ psychological
+wellbeing. It is useful for your topic because it supports the argument that workplace
+pressure and unhealthy conditions are not just uncomfortable, but can seriously harm
+mental health.
+
+3. Soto, Karapanos, Gonçalves, & Campos (2021)
+
+Observing and Predicting Knowledge Worker Stress, Focus and Awakeness in the Wild
+
+This paper looks at knowledge workers in real-life conditions and studies stress,
+ focus, and alertness during work. It shows that stress in office-style work can
+  be observed and predicted using data collected during everyday work activities. 
+  This supports your idea that AI can help detect stress early instead of waiting 
+  until burnout becomes severe.
+
+4. Vanttola et al. (2024)
+
+Different Methods to Detect Stress in Knowledge Workers: A Pilot Study for Long-term Monitoring
+
+This study explores different ways to detect stress in knowledge workers over
+ a longer period. The researchers found that simple self-reports and computer-use
+  data may help identify stress with relatively low effort from employees.
+   This supports the “control stress levels” part of your idea because it shows
+    that stress monitoring can be practical and not necessarily overly intrusive.
+
+5. Asthana, Hilleli, He, & Halfaker (2025)
+
+Summaries, Highlights, and Action Items: Design, Implementation 
+and Evaluation of an LLM-powered Meeting Recap System
+
+This paper presents an AI system that automatically creates meeting recaps, highlights,
+ and action items. The study shows that such systems can help reduce manual follow-up
+  work and make meetings easier to review and organize, although they still have limitations
+   like missing important details or relevance for specific users. For your idea, this
+    paper supports the claim that AI can reduce overload by helping with documentation
+    and small coordination tasks.
+
+
+These papers together show that heavy workload and pressure can lead to burnout and lower wellbeing,
+ while AI can help by detecting stress and reducing repetitive administrative work, such as
+  documentation and meeting follow-up.
